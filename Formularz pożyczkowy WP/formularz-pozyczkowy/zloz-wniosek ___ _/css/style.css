@@ -1,0 +1,191 @@
+<style>
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #FF8E30;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #FF8E30;
+  cursor: pointer;
+}
+
+.sliderp{
+	padding-top: 5px;
+	
+}
+.demo{
+	padding: 10px;
+	border-radius: 5px;
+	background: #FF8E30;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+
+
+.inputformvalues{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+
+
+.fp-form label{
+	min-width: 80%;
+	text-align: left;
+	color: #121212;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 500;
+}
+.fp-form label em.required{
+	color: #FF8E30;
+	font-weight: bold;
+}
+.fp-form{
+	margin: auto;
+}
+
+
+
+em.required{
+	color: #FF8E30;
+	font-weight: bold;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.fp-form #regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+.fp-form h1 {
+  text-align: center;  
+}
+
+.fp-form input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+.fp-form input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.fp-form .tab {
+  display: none;
+}
+
+.fp-form button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+.fp-form button:hover {
+  opacity: 0.8;
+}
+
+.fp-form #prevBtn {
+	border-radius: 5px;
+	background-color: #bbbbbb;
+	margin: 10px;
+}
+.fp-form #nextBtn{
+    min-width: 120px;
+    border-radius: 5px;
+    background: #FF8E30;
+    margin: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 50px;
+}
+
+/* Make circles that indicate the steps of the form: */
+.fp-form .step {
+  height: 18px;
+  width: 18px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.fp-form .step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.fp-form .step.finish {
+  background-color: #FF8E30;
+}
+
+.fp-form .title{
+	color: #FF8E30;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+.fp-form .subtitle{
+	text-align: center;
+	color: #333;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-transform: none;
+	font-size: 18px;
+}
+</style>
