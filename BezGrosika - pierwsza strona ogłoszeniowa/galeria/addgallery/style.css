@@ -1,0 +1,18 @@
+.delete{
+	position: absolute;
+}
+.img{
+	width: 25px;
+	height: 25px;
+}
+.img:hover{
+	padding: 5px;
+	background-color: red;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.erroraddogl{
+	text-align: center;
+	font-size: 15px;
+	color: red;
+}
